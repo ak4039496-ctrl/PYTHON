@@ -1,0 +1,151 @@
+# Python Basics 🐍
+
+## Introduction
+
+Python is a high-level, interpreted, and beginner-friendly programming language. It is widely used in web development, data science, artificial intelligence, automation, game development, and many other fields.
+
+Python is known for its simple syntax, making it easy to learn and write. It allows developers to build applications quickly with fewer lines of code compared to many other programming languages.
+
+### Features of Python
+
+* Easy to learn and read
+* Free and open source
+* Cross-platform (Windows, macOS, Linux)
+* Large standard library
+* Supports Object-Oriented Programming (OOP)
+* Popular for AI, Machine Learning, Data Science, and Web Development
+
+# Basic Python Code Examples
+
+## 1. Print Output
+
+```python
+print("Hello, Github And Everyone!!")
+```
+
+**Output:**
+
+```
+Hello, Github And Everyone!!
+```
+
+## 2. Variables
+
+```python
+name = "Amit"
+age = 20
+height = 5.8
+
+print(name)
+print(age)
+print(height)
+```
+
+---
+
+## 3. Taking User Input
+
+```python
+name = input("Enter your name:- ")
+print("Welcome,", name)
+```
+
+## 4. Data Types
+
+```python
+name = "Python"
+age = 20
+price = 99.99
+is_student = True
+
+print(type(name))
+print(type(age))
+print(type(price))
+print(type(is_student))
+```
+
+## 5. Arithmetic Operators
+
+```python
+a = 10
+b = 5
+
+print("Addition:-", a + b)
+print("Subtraction:-", a - b)
+print("Multiplication:-", a * b)
+print("Division:-", a / b)
+print("Modulus:-", a % b)
+```
+
+## 6. If-Else Statement
+
+```python
+age = 18
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+```
+
+## 7. For Loop
+
+```python
+for i in range(1, 6):
+    print(i)
+```
+
+## 8. While Loop
+
+```python
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+```
+## 9. Functions
+
+```python
+def greet(name):
+    print("Hello,", name)
+
+greet("Amit")
+```
+## 10. Lists
+
+```python
+fruits = ["Apple", "Banana", "Mango"]
+
+for fruit in fruits:
+    print(fruit)
+```
+## 11. Dictionaries
+
+```python
+student = {
+    "name": "Amit",
+    "age": 20,
+    "course": "Python"
+}
+
+print(student["name"])
+```
+## 12. Classes and Objects
+
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def display(self):
+        print("Student Name:", self.name)
+
+s = Student("Amit")
+s.display()
+```
+# Conclusion
+
+Python is one of the most popular programming languages because of its simplicity, readability, and versatility. Learning these basic concepts provides a strong foundation for advanced topics such as Object-Oriented Programming, Web Development, Data Science, Machine Learning, Artificial Intelligence, and Automation.
+
+Happy Coding! 🚀
