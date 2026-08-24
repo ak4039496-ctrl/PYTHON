@@ -1,2 +1,3 @@
 # PYTHON
-🐍 Python basics with examples, exercises, and mini projects.
+🐍 Python basics with examples, exercises, and mini projects...
+
